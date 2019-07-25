@@ -1,0 +1,7 @@
+/*.project
+/dashlines-news-app/.classpath
+/dashlines-web-gateway/.classpath
+/dashlines-news-app/.settings/*.prefs
+/dashlines-web-gateway/.settings/*.prefs
+/dashlines-news-app/*.project
+/dashlines-web-gateway/*.project

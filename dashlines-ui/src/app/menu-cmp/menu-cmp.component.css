@@ -1,0 +1,53 @@
+.menu-category{
+margin:0px 1%;
+cursor:pointer;
+
+}
+.menu-category *{
+	text-decoration:none;
+	color:black;
+}
+
+.mat-form-field-wrapper{
+  padding-bottom: 0;
+}
+.searchBtn{
+	cursor:pointer;
+	margin-left:10px;
+}
+.mobile-menu-btn{
+	display:none;
+}
+.tool-bar{
+	display: grid;
+    grid-template-columns: 85% 15%;
+    align-items: center;
+}
+.regular-menu{
+	display: inline;
+    text-align: center;
+    margin-left: 15%;
+}
+.mobile-menu-items{
+display:none;	
+}
+/* Mobile Rules */
+@media screen and  (max-width: 480px){
+.menu-category{
+	display:grid;
+}
+.regular-menu{
+	display:none;
+	
+}
+.mobile-menu-btn{
+	display:grid;
+	margin:0px auto;
+	grid-template-columns:10% 10%;
+	justify-content:center;
+}
+
+.tool-bar{
+	display: inherit;
+}
+}
